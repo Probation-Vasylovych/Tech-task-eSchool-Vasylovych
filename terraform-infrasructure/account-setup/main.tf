@@ -11,7 +11,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket       = "tech-task-vasylovych-2026"
+    bucket       = "tech-task-vasylovych-2026-v2"
     region       = "us-east-1"
     key          = "iam/tech-task.tfstate"
     encrypt      = true
